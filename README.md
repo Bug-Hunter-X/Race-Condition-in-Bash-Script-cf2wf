@@ -1,0 +1,1 @@
+This repository contains a simple bash script demonstrating a race condition.  The script launches two processes that concurrently write to files. Due to the lack of proper synchronization, this leads to data corruption and unpredictable results. The solution demonstrates how to use a lock mechanism to prevent race conditions.
